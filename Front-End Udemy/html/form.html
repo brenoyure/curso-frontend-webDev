@@ -10,21 +10,65 @@
 
 <body>
     <form>
+
+        <h2>My First HTML Form</h2>
+
         <!-- First Name Text Input -->
         <label for="firstName">First Name</label>
         <input type="text" name="firstName" id="firstName">
         <br>
+        <br>
 
         <!-- Password Input -->
         <label for="password">Password: </label>
-        <input type="password" name="password" placeholder="Please type your password">
+        <input type="password" name="password" id="password" placeholder="Please type your password">
+        <br>
         <br>
 
         <!-- E-mail Input -->
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="example@email.com">
+        <input type="email" name="email" id="email" placeholder="example@email.com">
+        <br>
         <br>
 
+        <!-- text area -->
+        <p><label for="description">Description</label></p>
+        <textarea name="" id="description" cols="10" rows="2"></textarea>
+        <br>
+        <br>
+
+        <!-- radio button -->
+        <p>Please select your favorite coding language</p>
+        <input type="radio" name="coding" value="javascript"> JavaScript
+        <input type="radio" name="coding" value="php"> PHP
+        <input type="radio" name="coding" value="python"> Python
+        <br>
+        <br>
+
+        <!-- check boxes -->
+        <p>Please select other knowning languages</p>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="programming" value="html" id="html">
+        <br>
+
+        <label for="css">CSS</label>
+        <input type="checkbox" name="programming" value="css" id="css">
+        <br>
+
+        <label for="react">React</label>
+        <input type="checkbox" name="programming" value="react" id="react">
+
+        <!-- select input -->
+        <p>Please your first language</p>
+        <select name="languages" id="">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="none">None of Above</option>
+        </select>
+
+        <br>
+        <br>
         <button type="submit">Submit Here</button>
         <button type="reset">Reset</button>
 
