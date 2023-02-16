@@ -1,0 +1,22 @@
+/* Class Selectors */
+/* DIV - used to group multiple elements */
+/* SPAN - used for group inline elements */
+
+.green {
+    color: green;
+    background: yellow;
+}
+
+.red {
+    color: red;
+    background: black;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.text {
+    background: white;
+    color: blue;
+}
