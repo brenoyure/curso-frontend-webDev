@@ -1,0 +1,29 @@
+body {
+    /* background: #dce6e9; */
+    background: #f1f5f9;
+}
+
+.container {
+    background: #fff;
+}
+
+
+h2 {
+    color: #645cff;
+}
+
+.special {
+    background: rgba(0,0,0,0.9);
+    color: #777777;
+}
+
+
+/* Corrigido */
+
+/* .container h2 {
+    color: #55F;
+} */
+
+/* .special h2 {
+    color: #55F;
+} */

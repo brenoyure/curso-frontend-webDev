@@ -1,22 +1,24 @@
-/* Class Selectors */
-/* DIV - used to group multiple elements */
-/* SPAN - used for group inline elements */
-
-.green {
-    color: green;
-    background: yellow;
+#first {
+    color: rgba(255,0,0,1);
+    background: rgba(0, 0, 0, 0);
 }
 
-.red {
-    color: red;
-    background: black;
+#second {
+    color: rgba(255,0,0,0.75);
+    background: rgba(0, 0, 0, 0.25);
 }
 
-span {
-    text-transform: uppercase;
+#third {
+    color: rgba(255,0,0,0.25);
+    background: rgba(0, 0, 0, 0.75);
 }
 
-.text {
-    background: white;
-    color: blue;
+#fourth {
+    /* color: rgba(255,0,0,0); */
+    color: rgba(0,255,0,0.67);
+    background: rgba(0,0,0,1);
+}
+
+body {
+    background: rgba(210, 89, 210, 0.4);
 }
