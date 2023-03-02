@@ -2,27 +2,26 @@
     margin: 0;
 }
 
-.navbar {
-    height: 20vh;
+#navbar {
+    height: 5rem;
+}
+
+.logo {
+    font-size: 20px;
     color: orangered;
 }
 
-.banner {
+.hero {
     background: black;
     color: white;
-    height: calc(100vh - 20vh);
-    overflow: hidden;
+    min-height: calc(100vh - 5rem);
 }
 
-.banner h2 {
-    font-size: 2em;
-}
-
-.banner h3 {
+.hero span {
     color: orangered;
 }
 
-.read-more_button {
+.hero-btn {
     background: orangered;
     color: white;
     border-width: 0px;
