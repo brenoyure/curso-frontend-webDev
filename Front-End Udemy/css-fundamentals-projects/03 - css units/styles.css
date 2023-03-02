@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    height: 20vh;
+    color: orangered;
+}
+
+.banner {
+    background: black;
+    color: white;
+    height: calc(80vh);
+}
+
+.banner h2 {
+    font-size: 2em;
+}
+
+.banner h3 {
+    color: orangered;
+}
+
+.read-more_button {
+    background: orangered;
+    color: white;
+    border-width: 0px;
+}

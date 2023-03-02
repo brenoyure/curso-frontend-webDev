@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner {
+    padding: 5px;
+    text-align: justify;
+    background: red;
+    /* height: calc(100vh - 6rem); */
+    /* width: 100vw; */
+    min-height: calc(100vh - 6rem);
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+.example {
+    background: green;
+    width: 10rem;
+    height: 25rem;
+    overflow: scroll;
+}
