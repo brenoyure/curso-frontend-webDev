@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #D4F1F4;
+}
+
+h3 {
+    font-family: "Segoe UI";
+}
+
+.card-one {
+    height: 30vh;
+    width: 50vw;
+    text-align: center;
+    border: 0.15rem solid palevioletred;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 50px;
+    background: white;
+}
+
+.card-text {
+    padding: 15px 0.2rem 15px 15px;
+
+}
+
+.sign-in-button {
+    text-decoration: none;
+    background: #FFAEBC;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    font: bold "Segoe UI";
+    color: #891876;
+}
