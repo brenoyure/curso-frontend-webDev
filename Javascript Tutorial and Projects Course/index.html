@@ -11,11 +11,22 @@
     <h1>Hello World</h1>
     <h4>Hello People</h4>
 
-    <button onclick="alert('Hello People')">Click me</button>
-    <button onclick="alert('Hello World')">Click me</button>
-    <button onclick="alert('Hello World')">Click me</button>
-    <button onclick="alert('Hello World')">Click me</button>
-    <button onclick="alert('Hello World')">Click me</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+
+    <script>
+        document.querySelectorAll('.btn').forEach(item => {
+            item.addEventListener('click', () => {
+                alert('This is Awesome')
+            })
+        })
+    </script>
+
 </body>
 
 </html>
