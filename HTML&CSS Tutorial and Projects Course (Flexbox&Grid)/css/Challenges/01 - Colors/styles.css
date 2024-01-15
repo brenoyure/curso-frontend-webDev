@@ -1,0 +1,21 @@
+body {
+    background: rgb(240, 255, 255);
+    /* background: #F1F5F9; -- CORRIGIDO -- */
+}
+
+.header {
+    /* color: rgba(50, 0, 240, 0.75); -- CORRIGIDO -- */
+    color: rgb(100, 92, 255);
+}
+
+.paragraph {
+    color: rgba(128, 128, 128, 1);
+}
+
+.container {
+    background: rgba(255, 255, 255, 1);
+}
+
+.special-container {
+    background: rgba(0, 0, 0, 0.9);
+}

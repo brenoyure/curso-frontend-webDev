@@ -1,0 +1,21 @@
+/* Color RGB */
+
+#first {
+    color: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
+}
+
+#second {
+    color: rgb(0, 255, 0);
+    background: rgb(255, 255, 255);
+}
+
+#third {
+    color: rgb(0, 0, 255);
+    background: rgb(200, 90, 230);
+}
+
+body {
+    background: rgb(100, 34, 210);
+}
+

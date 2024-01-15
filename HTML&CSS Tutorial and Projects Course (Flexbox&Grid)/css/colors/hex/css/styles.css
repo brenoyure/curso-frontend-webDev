@@ -1,0 +1,22 @@
+/* Color RGBA */
+/* RGBA Control Transparency | Opacity of the color */
+
+#first {
+    color: #FF0000;
+    background: #000;
+}
+
+#second {
+    color: #FFF;
+    background: #00FF00;
+}
+
+#third {
+    color: #0000FF;
+    background: #F15025;
+}
+
+#fourth {
+    color: #F234ad;
+    background: #222;
+}
