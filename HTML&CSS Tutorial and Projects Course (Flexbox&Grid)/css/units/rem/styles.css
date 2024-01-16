@@ -7,6 +7,22 @@ REM - são valores relativos, depende do root <html/>.
 
 */
 
+/**********************************************************************/
+
+/*
+
+Ao declararmos o elemento html, ou seja o root, conseguimos controlar o 
+tamanho da fonte, sobrescrevendo a configuração do navegador.
+
+Este valor de 10px, será passado para os elementos filhos que utilizam
+a unidade rem.
+
+*/
+
+html {
+    font-size: 10px;
+}
+
 div {
     font-size: 10px;
 }
@@ -15,8 +31,16 @@ div {
     font-size: 32px;
 }
 
+/* 
+
+Mesmo colocando o tamanho da fonte do elemento pai <div/>
+como 10px, o elemento filho com a classe 'relative' não será alterado,
+pois ele está utilizano a unidade rem, ou seja, depende do root (navegador / <html/>.
+
+
+*/
 .relative {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 
