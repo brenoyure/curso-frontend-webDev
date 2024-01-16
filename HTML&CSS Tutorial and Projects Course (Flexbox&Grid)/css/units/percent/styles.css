@@ -1,0 +1,17 @@
+/*
+Porcentagem são valores relativos, depende do elemento pai.
+Se declararmos apenas o elemento filho (no caso, o inner), sem declarar o pai,
+nada será renderizado na tela, nesse caso de background com tamanhos de 50%.
+*/
+
+.outer {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background: orange;
+}

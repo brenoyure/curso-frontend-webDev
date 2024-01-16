@@ -1,0 +1,22 @@
+/*
+
+REM - são valores relativos, depende do root <html/>.
+
+1rem = 16px estilo padrão do navegador
+1rem = valor base (16px) * número (1)
+
+*/
+
+div {
+    font-size: 10px;
+}
+
+.absolute {
+    font-size: 32px;
+}
+
+.relative {
+    font-size: 2em;
+}
+
+

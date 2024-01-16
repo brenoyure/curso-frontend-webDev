@@ -1,0 +1,46 @@
+/*
+
+EM - são valores relativos, depende do elemento pai.
+
+1em = 16px estilo padrão do navegador
+1em = valor base (16px) * número (1) = 16px
+2em = valor base (16px) * número (2) = 32px
+
+Se declararmos apenas o elemento filho (no caso, o inner), sem declarar o pai,
+nada será renderizado na tela.
+
+Por Exemplo, o Google Chrome estando definido com tamanho de fonte 'Médio 16px',
+o estilo abaixo fará com que a fonte dos dois elementos seja do mesmo tamanho. 
+
+.absolute {
+    font-size: 32px; <-- pixel, valor absoluto de 32.
+}
+
+.relative {
+    font-size: 2em;  <-- 16px (valor padrão do navegador * 2)
+}
+
+*/
+
+/*
+O valor base é controlado pelo elemento pai.
+Utilizaremos os containers <div/> para alterar os valores bases para 
+os elementos filhos, no caso os <h3/>'s. 
+
+O valor base para o tamanho da fonte do elemento filho, <h3/> com a classe 'relative' será agora de 10px, então 2em para este elemento será de 20px.
+Pois seu elemento pai agora é a <div/> e não mais o <html/> root.
+
+*/
+div {
+    font-size: 10px;
+}
+
+.absolute {
+    font-size: 32px;
+}
+
+.relative {
+    font-size: 2em;
+}
+
+
