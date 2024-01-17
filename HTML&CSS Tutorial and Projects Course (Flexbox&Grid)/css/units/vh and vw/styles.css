@@ -1,0 +1,28 @@
+/*
+
+Unidade Viewport
+
+vh - altura  -  porcento da tela 
+vw - largura - porcento da tela
+obs: porcentagem da tela => não dependem de um elemento pai, como o em ou rem, por exemplo
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: green;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about {
+    background: orange;
+    height: 43vh;
+    width: 54vw;
+}
+
