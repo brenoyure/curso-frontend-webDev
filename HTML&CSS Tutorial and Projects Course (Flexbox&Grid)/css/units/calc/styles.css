@@ -1,0 +1,22 @@
+/*
+
+Calc()
+Realiza operações de cálculo + - * /
+
+*/
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: green;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner {
+    background: orange;
+    height: calc(100vh - 100px);
+}
