@@ -1,0 +1,15 @@
+/*
+font-size = tamanho da fonte
+font-family = descreve a fonte do elemento, como Consolas, Roboto....
+*/
+
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 50px;
+}
+
+

@@ -1,0 +1,14 @@
+/*
+font-stack generic family
+serif, sans-serif, cursive, fantasy, monospace
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+}
