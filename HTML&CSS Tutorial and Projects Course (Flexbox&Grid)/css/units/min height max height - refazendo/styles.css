@@ -1,0 +1,38 @@
+/*
+
+height: auto
+min-height/max-height: overflow * /
+
+*/
+
+/*
+Colocando o Height como auto, que é o padrão caso não declaremos a prorpiedade no css,
+o height do elemento será o mesmo dos elementos filhos
+
+*/
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: green;
+    height: 6rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner {
+    background: orange;
+    /* height: calc(100vh - 6rem); */
+    min-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 6rem);
+    overflow: scroll;
+}
+
+.example {
+    background: rgb(137, 43, 226);
+    width: 10rem;
+    height: 25rem;
+    overflow: scroll;
+}

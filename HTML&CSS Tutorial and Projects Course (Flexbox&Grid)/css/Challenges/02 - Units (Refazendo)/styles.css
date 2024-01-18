@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    height: 20vh;
+}
+
+.main-banner {
+    text-transform: uppercase;
+    color: orangered;
+}
+
+.banner {
+    height: calc(100vh - 20vh);
+    background: black;
+}
+
+.simple-header {
+    font-size: 3em;
+}
+
+.text {
+    color: white;
+}
+
+.read-more-button {
+    background: orangered;
+}
