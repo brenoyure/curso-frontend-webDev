@@ -1,0 +1,35 @@
+/*
+
+CSS Box Model
+
+Definição => Todo e qualquer elemento no CSS é representado
+como uma box (caixa) e temos diversas propriedades para 
+manipular essa box, como padding, border e margin.
+
+Padding => é distância entre o conteúdo e a borda
+
+Margin => margem, distância entre os outros 
+elementos ou a borda da tela.
+
+*/
+
+h1, p {
+    color: white;
+}
+
+h1 {
+    background: red;
+    padding: 10px;
+    border: 15px solid black;
+
+    border-radius: 30px;
+}
+
+p {
+    background: blue;
+    padding: 15px;
+    border: 7px dotted black;
+
+    border-radius: 50%;
+    margin-top: -50px;
+}
