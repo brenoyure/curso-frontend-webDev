@@ -19,9 +19,46 @@ text transform & decoration
 
 body {
     line-height: 1.5;
+    text-transform: uppercase;
 }
+
+/*
+    Colocando o tamanho da fonte do <h1/? para 40px, por exemplo, 
+    e definindo a line-height do <body/> para todos os elementos como 1.5, 
+    sem indicar o tipo da unidade,
+
+    o valor do line-height do h1 será de 40px multiplicado por 1.5, o que dará o valor de 60px.
+
+    h1 {
+        font-size: 40px;
+    }
+
+*/
 
 h1 {
-    
+    font-size: 40px;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    text-transform: uppercase;
 }
 
+.one {
+    letter-spacing: 5px;
+    line-height: 2.5;
+    text-decoration: overline;
+}
+
+.two {
+    word-spacing: 10px;
+    text-transform: lowercase;
+}
+
+.three {
+    text-transform: capitalize;
+}
+
+a {
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: none;
+}
