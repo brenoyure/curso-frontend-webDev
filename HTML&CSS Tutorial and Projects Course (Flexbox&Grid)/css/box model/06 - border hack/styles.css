@@ -1,0 +1,12 @@
+/*
+
+CSS Box Model
+
+Border Hack
+
+*/
+
+* {
+    border: 2px solid red;
+}
+
