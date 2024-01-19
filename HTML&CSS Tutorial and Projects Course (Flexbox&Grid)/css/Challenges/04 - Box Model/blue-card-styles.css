@@ -1,0 +1,12 @@
+.blue-border {
+    border: rgb(127, 192, 230) solid 3px;
+}
+
+.blue-logo {
+    background: rgb(127, 192, 230);
+}
+
+.blue-button {
+    background: rgba(127, 192, 230, 0.541);
+    color: rgb(127, 192, 230);
+}

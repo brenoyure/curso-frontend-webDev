@@ -1,0 +1,12 @@
+.pink-border {
+    border: rgb(255, 192, 250) solid 3px;
+}
+
+.pink-logo {
+    background: palevioletred;
+}
+
+.pink-button {
+    background: rgba(216, 112, 147, 0.541);
+    color: rgb(138, 21, 60);
+}
