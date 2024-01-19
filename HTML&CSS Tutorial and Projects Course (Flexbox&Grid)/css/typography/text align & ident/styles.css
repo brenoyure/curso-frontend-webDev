@@ -1,9 +1,5 @@
 /*
-Mais fontes do Google
-
-Font Weight
-
-Font Styles
+text-align & indent
 
 */
 
@@ -11,24 +7,25 @@ Font Styles
 
 body {
     font-family: "Roboto", sans-serif;
-    font-style: italic;
+    text-align: right;
+    /* text-align: center;
+    text-align: left; */
 }
 
 .main-heading {
     font-family: "Trade Winds", cursive;
+    text-align: center;
 }
 
 .sub-heading {
-    /* font-style: italic; */
+
 }
 
 .one {
-    font-weight: bold;
+
 }
 
 .two {
-    /* font-weight: lighter;
-    font-style: italic;
-    font-style: oblique; */
-    font-style: normal;
+    text-align: left;
+    text-indent: 6rem;
 }

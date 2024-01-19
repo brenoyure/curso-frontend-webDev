@@ -1,0 +1,27 @@
+/*
+line height = altura das linhas / distância entre uma linha e outra
+letter-spacing
+word-spacing
+text transform & decoration
+
+*/
+
+/*
+    Se colocarmos o line-height com o número sem especificar o tipo da unidade
+    como, px, em ..., seu valor será relativo ao tamanho da fonte.
+
+    ou seja, o calculo funciona assim
+    o valor que você inseriu multiplicado pelo tamanho da fonte.
+
+    resumindo => dependendo do tamanho da fonte o valor da line-height será afetada.
+
+*/
+
+body {
+    line-height: 1.5;
+}
+
+h1 {
+    
+}
+
