@@ -1,0 +1,28 @@
+/*
+
+Block: sempre inicia uma nova linha que se expande por toda a largura
+
+Inline: Não inicia uma nova linha, e só expande o tamanho do conteúdo.
+
+
+Centralização Horizontal
+
+
+*/
+
+.block {
+    background: blue;
+    color: whitesmoke;
+    width: 300px;
+    margin: 2rem auto;
+    /* margin-left: auto; */
+}
+
+.inline {
+    background: red;
+    color: whitesmoke;
+}
+
+body {
+    text-align: center;
+}

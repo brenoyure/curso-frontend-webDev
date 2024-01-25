@@ -1,0 +1,36 @@
+/*
+
+Block: navegador respeita a largura e a altura, e a margem top e baixo
+
+Inline: navegador já não respeita esses valores, os ignora.
+
+
+
+Centralização Horizontal
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #f15025;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: #222;
+    display: block;
+    padding: 5px;
+}

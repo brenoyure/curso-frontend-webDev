@@ -1,0 +1,21 @@
+/*
+
+Block: sempre inicia uma nova linha que se expande por toda a largura
+
+Inline: Não inicia uma nova linha, e só expande o tamanho do conteúdo.
+
+*/
+
+.block {
+    background: blue;
+    color: whitesmoke;
+    display: block;
+    display: inline;
+}
+
+.inline {
+    background: red;
+    color: whitesmoke;
+    display: inline;
+    display: block;
+}
