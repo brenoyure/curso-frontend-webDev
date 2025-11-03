@@ -4,10 +4,10 @@ Block: navegador respeita a largura e a altura, e a margem top e baixo
 
 Inline: navegador já não respeita esses valores, os ignora.
 
+list-type-type: property
+descendent selectors
 
-
-Centralização Horizontal
-
+Block/Inline Elements
 
 */
 
@@ -18,9 +18,8 @@ Centralização Horizontal
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 ul li {
     list-style-type: none;
@@ -29,7 +28,7 @@ ul li {
 ul li a {
     color: #f15025;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background: #222;
     display: block;
     padding: 5px;

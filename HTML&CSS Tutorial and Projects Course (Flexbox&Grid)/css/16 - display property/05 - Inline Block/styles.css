@@ -1,0 +1,41 @@
+/*
+
+Inline Block;
+
+Não inicia uma nova linha, como o block, e o navegador
+respeita as margin, width e height
+
+display: none - remove from flow hide element colapsa o espaço
+
+opacity 0, visibility: hidden - esconde o elemento, mas mantém o 
+espaço ocupado.
+
+
+*/
+
+
+div {
+    background: #f15025;
+    margin: 10px;
+    color: white;
+}
+
+.none {
+    display: none;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.visibility {
+    visibility: visible;
+}

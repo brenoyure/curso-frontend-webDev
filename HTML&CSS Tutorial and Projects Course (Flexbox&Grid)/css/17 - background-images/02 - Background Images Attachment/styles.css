@@ -1,0 +1,98 @@
+/* 
+    Se a imagem de background não for o tamanho suficiente
+    o background é repetido.
+
+    background-size: cover; -> faz com que a imagem se expandar para preencher a DIV.,
+    mas mantendo a proporção, não simplesmente esticando.
+
+    background-position: por exemplo, center, ajusta a posição da imagem
+
+    background-attachment: fixed faz scroll na imagem
+
+*/
+
+
+/* div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.one {
+    background: linear-gradient(to top,blue, green);
+}
+
+.two {
+    background: linear-gradient(to left, blue, green, red, yellow, #f15025);
+}
+
+.three {
+    background: linear-gradient(315deg, red, green);
+}
+
+.four {
+    background: linear-gradient(to top left, red, green);
+}
+
+.five {
+    background: linear-gradient(blue 20%, yellow);
+}
+
+.six {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0, 0.9));
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: white;
+    border: 2px solid red;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.big-img {
+    background: url('./big.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.folder-img {
+    background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.3), 
+            rgba(255, 100, 239, 0.5)
+        ), 
+        url('./big.jpeg') center/cover no-repeat fixed ;
+}
+
+.small-img {
+    background: url('./images/folder-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.colorzilla {
+    /* Permalink - use to edit and share this gradient. Link permanente - use para editar e compartilhar este gradiente: https://colorzilla.com/gradient-editor/#d19e29+20,b223b2+51,7db9e8+100 */
+    background: linear-gradient(
+        135deg, 
+        rgba(209, 158, 41, 1) 20%, 
+        rgba(178, 35, 178, 1) 51%, 
+        rgba(125, 185, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}

@@ -8,14 +8,13 @@ Inline: Não inicia uma nova linha, e só expande o tamanho do conteúdo.
 
 .block {
     background: blue;
-    color: whitesmoke;
-    display: block;
+    color: white;
     display: inline;
 }
 
 .inline {
-    background: red;
-    color: whitesmoke;
+    background: orangered;
+    color: white;
     display: inline;
     display: block;
 }

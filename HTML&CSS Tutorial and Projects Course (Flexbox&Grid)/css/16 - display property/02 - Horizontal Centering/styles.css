@@ -7,20 +7,22 @@ Inline: Não inicia uma nova linha, e só expande o tamanho do conteúdo.
 
 Centralização Horizontal
 
+Centralizar inline elements temos que trabalhar com os elementos pai
 
 */
 
 .block {
     background: blue;
-    color: whitesmoke;
+    color: white;
     width: 300px;
     margin: 2rem auto;
-    /* margin-left: auto; */
+
 }
 
 .inline {
-    background: red;
-    color: whitesmoke;
+    background: orangered;
+    color: white;
+
 }
 
 body {

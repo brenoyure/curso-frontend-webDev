@@ -1,0 +1,40 @@
+/* 
+    Se a imagem de background não for o tamanho suficiente
+    o background é repetido.
+
+    background-size: cover; -> faz com que a imagem se expandar para preencher a DIV.,
+    mas mantendo a proporção, não simplesmente esticando.
+
+    background-position: por exemplo, center, ajusta a posição da imagem
+
+*/
+
+div {
+    height: 300px;
+    color: white;
+    border: 2px solid red;
+}
+
+.big-img {
+    background: url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position: 20% 50%; */
+}
+
+.small-img {
+    background: url('./small.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-position: 20% 50%;
+
+}
+
+.folder-img {
+    background: url('./images/folder-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+}

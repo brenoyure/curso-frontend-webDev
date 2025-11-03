@@ -12,11 +12,11 @@ Padrão: content-box
 
 */
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 .box-1, .box-2, .box-3 {
     width: 200px;
@@ -26,16 +26,15 @@ Padrão: content-box
 }
 
 .box-1 {
-    background: red;
+    background: orangered;
     padding: 20px;
-    box-sizing: border-box; /* Mantém o tamanho do quadrado, diminuindo o tamanho do conteúdo */
 }
 
 .box-2 {
-    background: green;
-}
-
-.box-3 {
     background: blue;
+
+}
+.box-3 {
+    background: green;
     padding: 20px;
 }
