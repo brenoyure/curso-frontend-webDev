@@ -1,0 +1,31 @@
+.banner {
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: solid 5px green;
+    position: relative;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.one {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+}

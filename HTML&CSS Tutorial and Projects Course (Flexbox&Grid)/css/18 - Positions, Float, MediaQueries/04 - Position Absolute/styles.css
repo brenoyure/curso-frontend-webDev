@@ -1,0 +1,42 @@
+/* 
+
+absolute => é relativo ao elemento pai 
+que está com (usa) relative
+OBS: Se não tiver nenhum parent com position relative, o 
+parent será o body.
+
+*/
+
+div {
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    /* position: relative; */
+}
+
+.one {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two {
+    background: green;
+    color: white;
+}
+
+.special {
+    background: pink;
+    font-size: 20px;
+    color: #222;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+}
+
+.container {
+    min-height: 100vh;
+    background: blue;
+}
